@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Exported datasets stay local; they are too large for Git
+data/
+
+# IDEs
+.idea/
+.vscode/
