@@ -5,7 +5,9 @@ Nieruchomości*), published by GUGiK as a WFS service at `https://mapy.geoportal
 and imports them into the `rcnTransactions` table of the backend database.
 
 Counties upload their data in batches, months after the notarial deed, so the data only needs
-refreshing from time to time (e.g. once a quarter): run `export`, then `import`.
+refreshing from time to time (e.g. once a quarter): run `export`, commit the new files in `data/`,
+then run `import`. The committed files let anyone import the data right after cloning, without the
+1–2 hour export.
 
 ## Installation
 

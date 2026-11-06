@@ -6,8 +6,8 @@ __pycache__/
 build/
 dist/
 
-# Exported datasets stay local; they are too large for Git
-data/
+# Unfinished export parts
+.parts/
 
 # IDEs
 .idea/
